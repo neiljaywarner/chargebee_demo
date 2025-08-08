@@ -1,0 +1,9 @@
+appId: com.example.chargebee_demo
+---
+- takeScreenshot: artifacts/screenshots/loading_flutter_logo.png
+- waitForAnimationToEnd
+- tapOn:
+    text: "Check Subscription"
+- waitForAnimationToEnd
+- takeScreenshot: artifacts/screenshots/maestro_after.png
+

@@ -1,0 +1,8 @@
+{
+  "subscription": {
+    "id": "sub_mock",
+    "status": "active",
+    "customer_id": "cust_abc123",
+    "current_term_end": "2025-12-31T23:59:59Z"
+  }
+}

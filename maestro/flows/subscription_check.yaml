@@ -1,0 +1,10 @@
+appId: com.example.chargebee_demo
+---
+- launchApp:
+    clearState: true
+- takeScreenshot: artifacts/screenshots/loading_flutter_logo.png
+- tapOn:
+    text: "Reset"
+- waitForAnimationToEnd
+- waitForAnimationToEnd
+- takeScreenshot: artifacts/screenshots/maestro_after.png

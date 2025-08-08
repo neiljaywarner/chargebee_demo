@@ -1,10 +1,9 @@
 import 'dart:convert';
 
-import 'package:flutter/services.dart' show rootBundle;
-import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:riverpod/riverpod.dart';
-
 import 'package:chargebee_demo/features/subscription/subscription.dart';
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:riverpod/riverpod.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'subscription_repository.g.dart';
 

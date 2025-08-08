@@ -1,8 +1,7 @@
-import 'package:riverpod_annotation/riverpod_annotation.dart';
-
 import 'package:chargebee_demo/core/logging/logger.dart';
 import 'package:chargebee_demo/features/subscription/subscription.dart';
 import 'package:chargebee_demo/features/subscription/subscription_repository.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'subscription_controller.g.dart';
 

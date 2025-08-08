@@ -24,9 +24,9 @@ void main() {
     tester.binding.window.devicePixelRatioTestValue = 2.0;
 
     await tester.pumpWidget(
-      RepaintBoundary(
-        key: const Key('rootBoundary'),
-        child: const ProviderScope(child: ChargebeeDemoApp()),
+      const RepaintBoundary(
+        key: Key('rootBoundary'),
+        child: ProviderScope(child: ChargebeeDemoApp()),
       ),
     );
 
